@@ -1,0 +1,48 @@
+.button{
+  background-color: #1d69db;
+  border-bottom: 1% solid #1d69db;
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  box-shadow: inset 0 1% 0 0 #7496d5;
+  -webkit-box-shadow: 0 1% 0 0 #7496d5 inset;
+  -moz-box-shadow: 0 1% 0 0 #7496d5 inset;
+  -ms-box-shadow: 0 1% 0 0 #7496d5 inset;
+  -o-box-shadow: 0 1% 0 0 #7496d5 inset;
+  color: white;
+  font-weight: bold;
+  padding: 6px 20px;
+  text-align: center;
+  text-shadow: 0-1% 0 #26148f;
+  text-decoration: none;
+  width: 30%;
+  height: 20%;
+  position: relative;
+  bottom: -1px;
+  /* Положение от нижнего края */
+  right: -5%;
+  /* Положение от правого края */
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #4a82d6 #000 #bac6da;
+  border-radius: 6px;
+  background: linear-gradient(#447ed4, #a7b7d4)#1d69db;
+  transition: 0.2s;
+  margin-top: 5%;
+}
+button:hover {
+  opacity: .85;
+  cursor: pointer;
+  background: linear-gradient(#a7b7d4, #447ed4) #1d69db;
+}
+
+button:active {
+  background: linear-gradient(#447ed4, #a7b7d4) #1d69db;
+}

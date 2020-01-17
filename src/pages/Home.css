@@ -1,0 +1,177 @@
+.form-group {
+    position: auto;
+    padding-top: 1rem;
+
+}
+
+.form-label {
+    position: auto;
+    padding-top: 1rem;
+
+}
+
+.home {
+
+    background-image: url("../img/snowf.jpg");
+    text-indent: 1em; 
+    /* Отступ первой строки  */
+    text-align: justify;
+    padding-bottom: 30%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #0b2852;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color: #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.coc {
+    color: #aa064b;
+
+}
+
+.teil {
+    color: #429595;
+}
+
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.top-menu {    float: right;
+}
+
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.top-menu ul li a {
+    display: block;
+    width: 140px;
+    text-decoration: none;
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 35px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background: #00ADE4;
+}
+
+
+
+.parent-home {
+    display: flex;
+    vertical-align: top;
+    overflow: auto;
+    padding: 20px;
+}
+
+.block-home {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-width: 7px;
+    border-style: ridge;
+    border-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.img {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+    width: 100px;
+}
+
+.searchName{
+    width: 60%;
+}
+.searchIngredient{
+    width: 60%;
+}
+.text{
+    color: #0b2852;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(85, 147, 228), 0 0 1em rgb(121, 202, 216);
+}
+
+.text-field {
+    outline: none;
+}
+
+.contact_form li:first-child,
+.contact_form li:last-child {
+    border-bottom: 1% solid #777;
+}
+
+.contact_form h2 {
+    margin: 0;
+    color: cornflowerblue;
+    align-items: center;
+
+
+}
+
+.required_notification {
+    color: cornflowerblue;
+    margin: 5px 0 0 0;
+    float: center;
+}
+
+
+.contact_form input {
+    height: 20%;
+    width: 185px;
+    padding: 5px 8px;
+    border: 1% solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    background: #fff;
+    border: 1% solid #555;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
